@@ -8,6 +8,10 @@
   </head>
   <script>
     var submitted = false;
+    function load() {
+      document.getElementById("go").style.display = "None";
+      submitted = true;
+    }
   </script>
   <iframe
     name="confirm"
@@ -20,9 +24,9 @@
       action="https://docs.google.com/forms/d/e/1FAIpQLSd555mLit3S9-1_GglDJzwuyiihQCJ3h2kKwodMYAGtqgKOLQ/formResponse"
       method="post"
       target="confirm"
-      onsubmit="submitted=true"
+      onsubmit="load()"
     >
-      <div class="form">
+      <div class="form" id="go">
         <div class="header">
           <h1>ESNC Elections 2023</h1>
           <h2>Make sure you review each choice before submitting.</h2>
