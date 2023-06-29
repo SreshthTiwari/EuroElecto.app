@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Election App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    var submitted = false;
+  </script>
+  <iframe
+    name="confirm"
+    id="confirm"
+    style="display: none"
+    onload="if(submitted){window.location='./done.html'}"
+  ></iframe>
+  <body>
+    <form
+      action="https://docs.google.com/forms/d/e/1FAIpQLSd555mLit3S9-1_GglDJzwuyiihQCJ3h2kKwodMYAGtqgKOLQ/formResponse"
+      method="post"
+      target="confirm"
+      onsubmit="submitted=true"
+    >
+      <div class="form">
+        <div class="header">
+          <h1>ESNC Elections 2023</h1>
+          <h2>Make sure you review each choice before submitting.</h2>
+          <div class="details">
+            <div class="name">
+              <input
+                required
+                type="text"
+                name="entry.905596193"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="clas">
+              <input
+                required
+                type="text"
+                name="entry.68278119"
+                placeholder="Your Class"
+              />
+            </div>
+            <div class="contbutton">
+              <a href="#first">Continue</a>
+            </div>
+          </div>
+        </div>
+        <div class="position" id="first">
+          <h2>Head Boy</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Sreshth Tiwari</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.2015938366"
+                  value="Sreshth Tiwari"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  style="width: 200px; filter: brightness(2.2)"
+                  src="graidentlogo.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Yashas P Raju</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.2015938366"
+                  value="Yashas P Raju"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  style="filter: brightness(0.7)"
+                  src="imagecompressor/Yashas P Raju logo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Head Girl</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Harshitha Ravi Shankar</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1783361051"
+                  value="Harshitha Ravi Shankar"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/harshitalogo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Lavanya Panwar</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1783361051"
+                  value="Lavanya Panwar"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Lavanya Panwar logo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Savannah Sabu</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1783361051"
+                  value="Savannah Sabu"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Savannah Sabu logo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deputy Head Boy</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Kuriakose Kurian M</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.263814243"
+                  value="Kuriakose Kurian M"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Kurian logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Dhanush Belmar</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.263814243"
+                  value="Dhanush Belmar"
+                />
+              </div>
+              <div class="logoimage">
+                <img src="Dhanush Belmar logo.webp" alt="logo" class="logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deputy Head Girl</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Sarah Vadasseril Thomas</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1374758702"
+                  value="Sarah Vadasseril Thomas"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Sarah VT Election logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Maya Kamath</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1374758702"
+                  value="Maya Kamath"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Maya Kamath logo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Sports Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Ayush Kiran</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.123483913"
+                  value="Ayush Kiran"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Ayush Kiran logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Sukumar Sriram</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.123483913"
+                  value="Sukumar Sriram"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Sukumar logo-min.JPG"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Vedant Arora</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.123483913"
+                  value="Vedant Arora"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="Vedant-Logo/Vedant-Logo-1.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deputy Sports Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Boris L Khuman</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.124810367"
+                  value="Boris L Khuman"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Boris L Khuman logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Dhruv Shukla</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.124810367"
+                  value="Dhruv Shukla"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Dhruv Shukla logo-min.JPG"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Yash A</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.124810367"
+                  value="Yash A"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Yash A logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Cultural Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Vedika Arora</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.991496469"
+                  value="Vedika Arora"
+                />
+              </div>
+              <div class="logoimage">
+                <img src="Vedika logo/Vedika logo-1.png" alt="logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deputy Cultural Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Aditya Kamat</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1916603622"
+                  value="Aditya Kamat"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Aditya Kamat logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Anjum Sultana</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.1916603622"
+                  value="Anjum Sultana"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Anjum Sultana  logo-min.png"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Health and Safety Captain</h2>
+          <div class="cands"></div>
+          <div class="candidate">
+            <div class="candlabel">
+              <label>Prachyuth BM</label>
+              <input
+                required
+                type="radio"
+                name="entry.672873358"
+                value="Prachyuth BM"
+              />
+            </div>
+            <div class="logoimage">
+              <img
+                src="imagecompressor/Prachyut logo-min.png"
+                alt="logo"
+                class="logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deputy Health and Safety Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Krishna Rao</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.762199412"
+                  value="Krishna Rao"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Krishna Rao logo-min.JPG"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Discipline Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Aditya Kumar</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.802431282"
+                  value="Aditya Kumar"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Aditya bottle Kumar logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Rashi Srivastava</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.802431282"
+                  value="Rashi Srivastava"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Rashi logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position">
+          <h2>Deptuy Discipline Captain</h2>
+          <div class="cands">
+            <div class="candidate">
+              <div class="candlabel">
+                <label>Param Ponnappa</label>
+                <input
+                  required
+                  type="radio"
+                  name="entry.874401254"
+                  value="Param Ponnappa"
+                />
+              </div>
+              <div class="logoimage">
+                <img
+                  src="imagecompressor/Param Ponnappa logo-min.jpeg"
+                  alt="logo"
+                  class="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
